@@ -1,0 +1,191 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(0, 37, 51);
+	color: #ffffff;
+}
+header {
+	font-family: Tahoma;
+	font-weight: normal;
+	margin: 30px;
+}
+main {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	color: rgb(0, 37, 51);
+	height: 1024px;
+}
+header h1 {
+	font-size: 28px;
+	display: inline;
+	margin: 0;
+	font-weight: normal;
+	margin-left: 50px;
+}
+.first-element {
+	color: rgb(0, 108, 136);
+}
+
+header ul {
+	display: inline;
+}
+
+header nav {
+	float: right;
+	width: 570px;
+}
+header span {
+	color: rgb(0, 171, 230);
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	margin: 10px;
+	margin-left: 10px;
+	font-size: 16px;
+}
+nav ul li:hover {
+	cursor: pointer;
+}
+
+.menu {
+	width: 900px;
+	margin: auto;
+	margin-top: 30px;
+}
+.banner {
+	width: 770px;
+	color: #fff;
+	position: relative;
+	margin-bottom: 20px;
+}
+.banner img {
+	width: inherit;
+	height: 350px;
+	padding-top: 20px;
+	padding-left: 14px;
+}
+.banner div {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+}
+.banner h1 {
+	
+	font-size: 50px;
+	margin: 0;
+}
+.banner p {
+	font-size: 20px;
+}
+
+.box {
+	margin-left: 16px;
+	width: 245px;
+	height: 230px;
+	float: left;
+	position: relative;
+	background-color: rgb(0, 119, 165);
+	color: #fff;
+}
+.box p{
+	font-size: 13px;
+	height: 110px;
+}
+.box h3 {
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: normal;
+	height: 12px;
+}
+#servicos {
+	height: 250px;
+}
+
+.box h3, p {
+	padding-left: 10px;
+}
+.button {
+	background-color: rgb(0, 189, 234);
+	bottom: 22px;
+	left: 22px;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+	position: absolute;
+}
+.button:hover {
+	cursor: pointer;
+}
+
+.texto1 {
+	height: 200px;
+	margin: auto;
+	width: 767px;
+}
+.texto2 {
+	width: 509px;
+	float: left;
+	padding-top: 15px;
+}
+
+.texto2 h3 {
+	font-size: 23px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.texto2 img {
+	float: left;
+	width: 246px;
+	margin-right: 15px;
+}
+
+.texto2 p {
+	font-size: 14px;
+}
+.depoimento {
+	width: 250px;
+	float: right;
+}
+.depoimento h3 {
+	font-size: 22px;
+	font-weight: normal;
+}
+.depoimento blockquote {
+	margin: 0;
+	font-style: italic;
+	margin-top: 20px;
+	font-size: 14px;
+	padding: 20px;
+	background-color: rgb(211, 240, 254);
+	width: 200px;
+}
+
+#final {
+	height: 70px;
+	background-color: rgb(211, 240, 254);
+	margin-top: 110px;
+}
+
+#final ul, li {
+	float: left;
+	list-style: none;
+	padding-left: 5px;
+	font-size: 18px;
+}
+#final ul {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#ro {
+	width: 800px;
+	margin: auto;
+	font-size: 17px;
+}
+.direita img {
+	width: 25px;
+}
