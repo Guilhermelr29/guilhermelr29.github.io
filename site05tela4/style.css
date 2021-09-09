@@ -1,0 +1,40 @@
+* {
+	font-family: Tahoma;
+}
+
+
+header {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+header h3 {
+	font-size: 35px;
+}
+.box1 {
+	float: left;
+	margin-left: 250px;
+	width: 20%;
+}
+.torta1, .torta2 {
+	margin-left: 220px;
+	width: 100%;
+}
+	
+.torta2 {     
+	height: 200px;
+	margin-top: 400px;
+}
+.torta3 {
+	
+	height: 200px;
+	margin-top: 200px;
+}
+
+@media only screen and (max-width:  1305px)
+{
+.torta1, .torta2, .torta3 {
+	margin-left: -50px;
+	
+}
+}
