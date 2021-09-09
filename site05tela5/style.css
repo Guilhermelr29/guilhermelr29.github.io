@@ -1,0 +1,40 @@
+* {
+	font-family: Tahoma;
+}
+
+
+header {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+header h3 {
+	font-size: 35px;
+}
+.box1 {
+	float: left;
+	margin-left: 250px;
+	width: 25%;
+}
+.pao1, .pao2, .pao3 {
+	margin-left: 200px;
+	width: 100%;
+}
+	
+.pao2 {     
+	height: 200px;
+	margin-top: 400px;
+}
+.pao3 {
+	
+	height: 200px;
+	margin-top: 200px;
+}
+
+@media only screen and (max-width:  1305px)
+{
+.pao1, .pao2, .pao3 {
+	margin-left: -50px;
+	
+}
+}
