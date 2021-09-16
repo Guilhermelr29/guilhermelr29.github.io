@@ -3,4 +3,4 @@ var resultadoFinal = fatorial;
 for (var i = 1; i < fatorial; i++) {
     resultadoFinal *= i;
 }
-document.write(resultadoFinal);
+document.write("O resultado do Fatorial é: "+resultadoFinal);
