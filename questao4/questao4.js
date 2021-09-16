@@ -1,4 +1,4 @@
-(function fibonacci() {
+function fibonacci() {
 	documement.write("Fibonacci");
 	let num; 
 	let num3 = 2;
@@ -11,4 +11,4 @@
 		num3 = num; 
 		document.write("<br>"+i+"° = "+numero);
 	}
-})();
+}
