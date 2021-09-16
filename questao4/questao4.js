@@ -1,4 +1,5 @@
 function fibonacci() {
+	documement.write("Fibonacci");
 	let num; 
 	let num3 = 2;
 	let num2 = 1; 
