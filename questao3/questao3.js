@@ -4,4 +4,4 @@ for(i = 1; i <= 1000; i++) {
 		soma = soma + i;
 	}
 }
-document.write(soma);
+document.write("Soma dos pares positivos até 1000: "+soma);
