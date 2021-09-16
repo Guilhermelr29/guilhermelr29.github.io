@@ -12,3 +12,4 @@ function fibonacci() {
 		document.write("<br>"+i+"° = "+numero);
 	}
 }
+fibonacci();
