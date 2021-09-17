@@ -1,5 +1,9 @@
+window.onload = function() {
+	let chamar = document.getElementById("executar");
+	chamar.addEventListener("click", numerosPrimos);
+}
+
 function numerosPrimos() {
-	document.write("numeros primos");
 	let cont;
 	for(i = 2; i <= 1000; i++) {
 		cont = 0; 
@@ -8,7 +12,7 @@ function numerosPrimos() {
 				cont++;
 		}
 		if(cont == 2)
-			document.write(i);
+			document.write(i+ "<br>");
 	}
 
 }
