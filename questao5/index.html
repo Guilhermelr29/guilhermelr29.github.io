@@ -3,24 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
-	
+	<script type="text/javascript" src="questao5.js"></script>
 </head>
 <body>
 	<p>Questão 5</p>
-	<script>
-function numerosPrimos() {
-	let cont;
-	for(i = 2; i <= 1000; i++) {
-		cont = 0; 
-		for(j = 1; j <= i; j++) {
-			if(i%j == 0)
-				cont++;
-		}
-		if(cont == 2)
-			document.write(i);
-	}
-}
-		numerosPrimos();
-	</script>
+	<button id="executar">Executar</button>
 </body>
 </html>
