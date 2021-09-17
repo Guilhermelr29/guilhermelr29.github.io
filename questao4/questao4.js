@@ -1,5 +1,9 @@
+window.onload = function() {
+	let chamar = document.getElementById("executar");
+	chamar.addEventListener("click", fibonacci);
+}
+
 function fibonacci() {
-	documement.write("Fibonacci");
 	let num; 
 	let num3 = 2;
 	let num2 = 1; 
@@ -9,7 +13,6 @@ function fibonacci() {
 		num = num3 + num2; 
 		num2 = num3; 
 		num3 = num; 
-		document.write("<br>"+i+"° = "+numero);
+		document.write("<br>"+i+"° = "+num);
 	}
 }
-fibonacci();
